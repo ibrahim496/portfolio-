@@ -1,0 +1,50 @@
+/* nav starts */
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    grid-area: header;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: blue;
+  }
+  /* nav starts ends  */
+
+  /* nav BODY STARTS*/
+body{
+  list-style: none;
+  align-items: center;
+  text-align: center;
+background-color: violet;
+color: white;
+}
+
+  /* nav BODY STARTS*/
+  
+footer {
+  align-items: flex-end;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color:violet;
+      color: white;
+      text-align: center
+  }
+
+    
